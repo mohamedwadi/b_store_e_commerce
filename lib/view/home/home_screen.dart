@@ -56,8 +56,13 @@ class _HomeScreenState extends State<HomeScreen> {
             // SizedBox(
             //   height: 13.h,
             // ),
+
+        /**
+         *هي هان ا لمشكلة عند ما اكتب 214.h
+         ماا بزبط
+         */
             Container(
-              height: 214.h,
+              height: 214,
               child: CustomProductCard(
                 title: 'title',
                 priceAfterDiscount: 50,
